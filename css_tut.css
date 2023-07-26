@@ -1,0 +1,303 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+    header {
+        height: 15vh;
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .logo {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        margin-left: 40px;
+        color: rgb(91, 33, 182);
+    }
+    
+    nav ul li {
+        display: inline;
+        list-style: none;
+        margin-right: 15px;
+    }
+    
+    nav {
+        margin-left: 730px;
+    }
+    
+    .b1 {
+        width: 140px;
+        height: 40px;
+        align-items: center;
+        display: flex;
+    }
+    
+    .b1 button {
+        margin-right: 10px;
+        padding: 9px;
+        align-items: center;
+        border: solid 1px rgb(109, 40, 217);
+        border-radius: 8px;
+        background-color: rgb(109, 40, 217);
+        color: white;
+    }
+    
+    .b1 button:hover {
+        background-color: rgb(25, 25, 116);
+    }
+    /* Main _starts_from_here*/
+    
+    .space {
+        height: 15vh;
+        background-color: aqua;
+        position: relative;
+    }
+    
+    main {
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    
+    .left {
+        width: 50%;
+        height: 60vh;
+        align-items: center;
+        justify-content: center;
+        line-height: 25px;
+    }
+    
+    .one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    .two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 100px;
+        height: 130px;
+        width: 550px;
+        margin-bottom: 10px;
+    }
+    
+    .btn2 {
+        height: 40px;
+        margin-left: 95px;
+        width: 225px;
+    }
+    
+    .btn2 button {
+        margin-left: 2px;
+        width: 100px;
+        margin-right: 10px;
+        height: 40px;
+        border-radius: 5px;
+        border-style: none;
+    }
+    
+    .btn2 button :hover {
+        background-color: rgb(57, 57, 61);
+    }
+    
+    .right {
+        width: 50%;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .right img {
+        height: auto;
+        width: 600px;
+    }
+    
+    .recom {
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    /*------------------------------------------------*/
+    
+    .coursesimg {
+        height: 90vh;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    .title {
+        width: 80%;
+        margin-left: 20px;
+    }
+    
+    .img_adj {
+        width: 30%;
+        border-radius: 13px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .img1_img_adj {
+        width: 30%;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .img2_img_adj {
+        width: 30%;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .img3_img_adj {
+        width: 30%;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .course1 {
+        height: 40vh;
+        background-image: url("laptop.jpg");
+        background-repeat: no-repeat;
+        border-radius: 20px 20px 0 0;
+        margin-bottom: 20px;
+        background-size: cover;
+    }
+    /*----------------------------------------*/
+    
+    .free_co {
+        color: rgb(104, 103, 102);
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    
+    .course_name {
+        font-size: 18px;
+        color: rgb(20, 20, 20);
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    
+    .course_detail {
+        color: rgb(37, 36, 36);
+        line-height: 25px;
+        margin-bottom: 20px;
+        height: 20vh;
+    }
+    
+    .bt3 button {
+        background-color: rgb(109, 40, 217);
+        padding: 10px;
+        border-style: none;
+        border-radius: 18px;
+        width: 8vw;
+        color: white;
+    }
+    
+    .bt3 button:hover {
+        background-color: rgb(66, 66, 125);
+    }
+    /*--------------------------------------------------*/
+    
+    .testi {
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    
+    .review {
+        height: 50vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 95%;
+        margin-left: 50px;
+    }
+    
+    .review section {
+        width: 50%;
+        margin: 4px;
+        background-color: rgba(243, 244, 246);
+        height: 50vh;
+        margin-right: 27px;
+        border-radius: 3px;
+    }
+    
+    .marks {
+        font-size: 15px;
+        line-height: 25px;
+        color: gray;
+        margin-top: 60px;
+        width: 90%;
+        margin-left: 40px;
+    }
+    
+    .view {
+        background-color: aqua;
+    }
+    
+    .name {
+        margin-left: 40px;
+        margin-top: 45px;
+        font-weight: 600;
+    }
+    
+    .occu {
+        margin-left: 40px;
+        margin-top: 3px;
+        font-weight: 300;
+        font-size: 12px;
+        color: gray;
+    }
+    
+    footer {
+        height: 20vh;
+        width: 100%;
+        display: flex;
+    }
+    
+    .left_footer {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .left_footer img {
+        margin-left: 40px;
+    }
+    
+    .right_footer {
+        width: 60%;
+    }
